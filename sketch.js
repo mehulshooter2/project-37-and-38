@@ -10,14 +10,14 @@ var gameState = 1;
 
 function preload(){
 
-    backgroundImg = loadImage("SPRITES/jungle.jpg");
-    monkey_running = loadAnimation("SPRITES/Monkey_01.png","SPRITES/Monkey_02.png","SPRITES/Monkey_03.png",
-    "SPRITES/Monkey_04.png","SPRITES/Monkey_05.png","SPRITES/Monkey_06.png","SPRITES/Monkey_07.png",
-    "SPRITES/Monkey_08.png","SPRITES/Monkey_09.png","SPRITES/Monkey_10.png")
+     backgroundImg = loadImage("jungle.jpg");
+    monkey_running = loadAnimation("Monkey_01.png","Monkey_02.png","Monkey_03.png",
+    "Monkey_04.png","Monkey_05.png","Monkey_06.png","Monkey_07.png",
+    "Monkey_08.png","Monkey_09.png","Monkey_10.png")
 
-    backgroundImg2 = loadImage("SPRITES/game over.jpg")
-    bananaImg = loadImage("SPRITES/banana.png");
-    stoneImg = loadImage("SPRITES/stone.png");
+    backgroundImg2 = loadImage("game over.jpg")
+    bananaImg = loadImage("banana.png");
+    stoneImg = loadImage("stone.png");
 
 }
 
